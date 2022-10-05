@@ -1,0 +1,58 @@
+customer behavioural feature variable. 
+--------------------------------------
+'url',
+ 'delinq_2yrs',
+ 'earliest_cr_line',
+ 'inq_last_6mths',
+ 'open_acc',
+ 'pub_rec',
+ 'revol_bal',
+ 'revol_util',
+ 'total_acc',
+ 'out_prncp',
+ 'out_prncp_inv',
+ 'total_pymnt',
+ 'total_pymnt_inv',
+ 'total_rec_prncp',
+ 'total_rec_int',
+ 'total_rec_late_fee',
+ 'recoveries',
+ 'collection_recovery_fee',
+ 'last_pymnt_d',
+ 'last_pymnt_amnt',  
+ 'last_credit_pull_d',
+ 'collections_12_mths_ex_med',  
+ 'acc_now_delinq',
+ 'desc'
+
+Features having unique/constant value.
+--------------------------------------
+ 'pymnt_plan',
+ 'initial_list_status',
+ 'policy_code',
+ 'application_type',
+ 'chargeoff_within_12_mths',
+ 'delinq_amnt',
+ 'tax_liens'
+
+Data Description:
+-----------------
+1. id, member-id : These are customer's id
+2. loan_amnt  : This is loan amount borrower has request for. 
+3. funded_amnt: This is loan amount the agency has approved. 
+4. funded_amnt_inv : this is the loan amount the invester/lender has approved and given to borrower. 
+5. term: this is the total tenure of installment. 
+6. int_rate : Interest rate on loan. 
+7. installment: this is installment amount. 
+8. grade : This is grade assigned by agency( lending club).
+9. subgrade : This is subgrade assigned by agency( Lending club).
+10. emp_title : Emp_title of the borrower. 
+11. emp_length : since when the borrower is employed. 
+12. home_ownership : whether the borrower is owner or tenent?
+13. annual_inc: Annual income of borrower.
+14. Verification_status : whether the source of income is verified or not 
+15. Loan_status : this is our tager variable, which we will be analyzing for whether the loan got fully paid or defaulted. 
+16. purpose : what is the purpose of loan request. 
+17. title  : title of borrower
+18. zip_code and addr_state : geo location of borrowers
+19. A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income.
