@@ -11,42 +11,44 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The given dataset contains the information about the past loan application and whether they have defaulted or not. the objective of this case study is to idenfy the pattern which indicate if a person is likely to default which may be used for taking the decision whether to deny the loan. reduce the loan amount, lending at higher interest rates etc.
+
+Results Expected Write all your code in one well-commented Python file; briefly mention the insights and observations from the analysis Present the overall approach of the analysis in a presentation:
+Mention the problem statement and the analysis approach briefly
+Explain the results of univariate, bivariate analysis etc. in business terms
+Include visualisations and summarise the most important results in the presentation
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+After Analyzing the lending club dataset we can inferred below insights. 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Below features are clearly driving factors that impacts loan repayment certainly.  
+Loan term
+Grade & sub-Grade
+Rate of interest
+Income & purpose of loan
+Public bankruptcies records
+ 
+Below features have visible indication of associated risks so must be utilized for risk scoring, if already happening then logic to be reviewed and updated accordingly. 
+Grade & sub-grade
+Public bankruptcies records
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- Pandas
+- Numpy
+- Seaborn
+- Matplotlib 
+- plotly
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+This project is a part of masters in machine learning conducted by IIIB/LJMU in collaboration with upgrad. 
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@kris2k10] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
